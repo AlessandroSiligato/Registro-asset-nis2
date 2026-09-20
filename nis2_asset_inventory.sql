@@ -1,8 +1,13 @@
 -- =====================================================================
 --  PROJECT WORK - INVENTARIO ASSET / SERVIZI / FORNITORI (NIS2 - ACN)
 --  Ente fittizio:  Comune di Valmontana (Ente Pubblico - soggetto essenziale)
---  DBMS:           PostgreSQL 14+
---  Autore:         Senior DBA / Cybersecurity (compliance NIS2 - D.Lgs. 138/2024)
+--  DBMS:           PostgreSQL 14+ (verificato su PostgreSQL 16)
+--  Autore:         Alessandro Pio Siligato - matricola 0312301028
+--  Corso:          Informatica per le Aziende Digitali (L-31) - Universita' Pegaso
+--  Project Work:   PW 19 - Tema 2 "Privacy e sicurezza aziendale"
+--  Riferimenti:    Direttiva (UE) 2022/2555 - D.Lgs. 138/2024 (NIS2) - profili ACN
+--  NOTA:           tutti i dati di popolamento (ente, persone, fornitori, contratti,
+--                  indirizzi IP e seriali) sono interamente simulati.
 --
 --  Struttura dello script (eseguibile "as-is" in ordine):
 --    0. Reset ambiente e creazione schema
